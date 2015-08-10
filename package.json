@@ -1,0 +1,9 @@
+{
+  "name": "fswch",
+  "description": "Tiny command line wrapper for fs.watch",
+  "version": "1.0.3",
+  "author": "Lasha Tavartkiladze (coloraggio)",
+  "license": "MIT",
+  "repository": " ",
+  "bin": "./fswch.js"
+}

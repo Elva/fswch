@@ -1,0 +1,8 @@
+Tiny command line wrapper for fs.watch
+
+    npm install -g fswch
+
+fswch filepath(s) 'command to execute
+
+    fswch scripts/*.js 'uglify scripts/*.js > scripts.min.js'
+    fswch style.less 'lessc style.less > style.css'
