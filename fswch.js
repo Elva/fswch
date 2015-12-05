@@ -11,7 +11,6 @@
 
     Lasha Tavartkiladze
     2015-07-21
-    Public Domain
 */ 
 
 
@@ -40,7 +39,7 @@ var command = argv.pop();
 argv.forEach(function (filePath) {
     node.fs.exists(filePath, function (exists) {
         if (exists && node.fs.statSync(filePath).isFile()) {
-            node.fs.watch(filePath, onChange);
+            node.fs[process.platform === 'win32' ? 'watch' : 'watchFile'](filePath, onChange);
         }
     });
 });
