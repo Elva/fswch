@@ -1,3 +1,7 @@
+* * *
+This library is no longer maintained.
+* * *
+
 # fswch
 Tiny command line wrapper for fs.watch
 
