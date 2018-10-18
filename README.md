@@ -1,5 +1,5 @@
 * * *
-This library is no longer maintained.
+This library is no longer maintained. Use it at your own risk.
 * * *
 
 # fswch
